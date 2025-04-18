@@ -1,0 +1,38 @@
+Git使用说明
+===========
+
+本项目使用Git进行版本控制，以下是一些基本的Git使用指南：
+
+1. 克隆仓库
+   git clone <仓库URL>
+
+2. 查看状态
+   git status
+
+3. 添加文件
+   git add <文件名>
+   git add .  # 添加所有更改
+
+4. 提交更改
+   git commit -m "提交说明"
+
+5. 推送到远程仓库
+   git push
+
+6. 拉取最新更改
+   git pull
+
+7. 创建分支
+   git branch <分支名>
+   git checkout <分支名>
+   # 或者一步完成
+   git checkout -b <分支名>
+
+8. 合并分支
+   git checkout main  # 切换到主分支
+   git merge <分支名>  # 合并指定分支到当前分支
+
+注意事项：
+- 请不要提交大型数据文件
+- 请不要提交敏感信息（如密码、API密钥等）
+- 提交前请确保代码能够正常编译和运行
