@@ -26,6 +26,7 @@ bld/
 msbuild.log
 msbuild.err
 msbuild.wrn
+vscode/
 
 # Visual Studio cache files
 # files ending in .cache can be ignored
