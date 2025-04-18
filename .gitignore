@@ -12,6 +12,9 @@
 *.db
 
 # Build results
+vscode/
+package/
+properties/
 [Dd]ebug/
 [Dd]ebugPublic/
 [Rr]elease/
